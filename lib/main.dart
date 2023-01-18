@@ -49,19 +49,6 @@ class MyApp extends StatelessWidget {
                     secondary: Color.fromARGB(255, 123, 183, 232),
                     primary: Color.fromARGB(255, 16, 95, 159))),
             routerConfig: routes(authentication: state),
-            // routeInformationParser:
-            //     routes(authentication: state).routeInformationParser,
-            // routerDelegate: routes(authentication: state).routerDelegate,
-            // routeInformationProvider:
-            //     routes(authentication: state).routeInformationProvider,
-            // home: BlocBuilder<LoginStorageCubit, Authentication?>(
-            //   builder: (context, state) {
-            //     if (state != null) {
-            //       return const EmployeeScreen();
-            //     }
-            //     return AuthenticationScreen();
-            //   },
-            // ),
           );
         },
       ),
